@@ -16,7 +16,8 @@ main.mb-4
             data-netlify='true',
             data-netlify-honeypot='bot-field',
             name='contact-me',
-            method='post'
+            method='post',
+            action='/'
           )
             .form-floating
               input#name.form-control(
@@ -80,9 +81,7 @@ main.mb-4
               .text-center.text-danger.mb-3 Error sending message!
 
             // Submit Button
-            button#submitButton.btn.btn-primary.text-uppercase.disabled(
-              type='submit'
-            ) Send
+            button#submitButton.btn.btn-primary.text-uppercase(type='submit') Send
 </template>
 
 <script>
