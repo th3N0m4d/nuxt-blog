@@ -22,7 +22,7 @@ main.mb-4
             .form-floating
               input#name.form-control(
                 type='text',
-                name='name'
+                name='name',
                 placeholder='Enter your name...',
                 data-sb-validations='required'
               )
@@ -54,7 +54,7 @@ main.mb-4
             .form-floating
               textarea#message.form-control(
                 placeholder='Enter your message here...',
-                name='message'
+                name='message',
                 style='height: 12rem',
                 data-sb-validations='required'
               )
