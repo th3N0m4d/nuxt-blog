@@ -30,6 +30,10 @@ export default {
         src: 'https://use.fontawesome.com/releases/v5.15.3/js/all.js',
         defer: true,
       },
+      {
+        hid: 'bootstrap',
+        src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js',
+      },
     ],
   },
 
