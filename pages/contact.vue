@@ -12,12 +12,12 @@ main.mb-4
           // * * SB Forms Contact Form * *
           // * * * * * * * * * * * * * * *
 
-          // This form is pre-integrated with SB Forms.
-          // To make this form functional, sign up at
-          // https://startbootstrap.com/solution/contact-forms
-          // to get an API token!
-
-          form#contactForm(data-sb-form-api-token='API_TOKEN')
+          form(
+            data-netlify='true',
+            data-netlify-honeypot='bot-field',
+            name='contact-me',
+            method='post'
+          )
             .form-floating
               input#name.form-control(
                 type='text',

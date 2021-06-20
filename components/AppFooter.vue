@@ -19,5 +19,5 @@ footer.border-top
               span.fa-stack.fa-lg
                 i.fas.fa-circle.fa-stack-2x
                 i.fab.fa-github.fa-stack-1x.fa-inverse
-        .small.text-center.text-muted.fst-italic Copyright &copy; Your Website 2021
+        .small.text-center.text-muted.fst-italic Copyright &copy; Sample Blog App {{ new Date().getFullYear() }}
 </template>
