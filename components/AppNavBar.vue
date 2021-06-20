@@ -1,7 +1,7 @@
 <template lang="pug">
 nav#mainNav.navbar.navbar-expand-lg.navbar-light
   .container.px-4.px-lg-5
-    a.navbar-brand(href='index.html') Start Bootstrap
+    NuxtLink.navbar-brand(to='/') Start Bootstrap
     button.navbar-toggler(
       type='button',
       data-bs-toggle='collapse',
