@@ -27,7 +27,7 @@ article.mb-4
         p
           | As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.
         a(href='#!')
-          img.img-fluid(src='assets/img/post-sample-image.jpg', alt='...')
+          img.img-fluid(src='img/post-sample-image.jpg', alt='...')
         span.caption.text-muted
           | To go places and do things that have never been done before – that’s what living is all about.
         p
@@ -39,6 +39,16 @@ article.mb-4
           a(href='http://spaceipsum.com/') Space Ipsum
           | &middot; Images by
           a(href='https://www.flickr.com/photos/nasacommons/') NASA on The Commons
+        #disqus_thread
+        script.
+          (function () {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement("script");
+            s.src = "https://https-sample-blog-app-netlify-app.disqus.com/embed.js";
+            s.setAttribute("data-timestamp", +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
 </template>
 
 <script>
