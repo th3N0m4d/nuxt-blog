@@ -14,5 +14,7 @@ module.exports = {
   ],
   plugins: ['pug'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+  },
 }

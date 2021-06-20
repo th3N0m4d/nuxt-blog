@@ -1465,6 +1465,11 @@
   dependencies:
     pug-lexer "^5.0.0"
 
+"@smartweb/vue-flash-message@^0.6.10":
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/@smartweb/vue-flash-message/-/vue-flash-message-0.6.10.tgz#b091d74adf55e1e67ea0debcbe14a92f9440b7a6"
+  integrity sha512-ceDUUzXI6FDscev36kZQvc2BO+MayOt6uJ2HSh9zoOkfa0PVIhmaoB56InlTTsK7MmlSIvPJpRB+Habdx3MtNw==
+
 "@types/eslint@^7.2.6":
   version "7.2.13"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.2.13.tgz#e0ca7219ba5ded402062ad6f926d491ebb29dd53"

@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@smartweb/vue-flash-message": "^0.6.10",
     "bootstrap": "5.0.1",
     "core-js": "^3.9.1",
     "eslint-plugin-pug": "^1.2.3",
