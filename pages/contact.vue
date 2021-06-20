@@ -22,6 +22,7 @@ main.mb-4
             .form-floating
               input#name.form-control(
                 type='text',
+                name='name'
                 placeholder='Enter your name...',
                 data-sb-validations='required'
               )
@@ -31,6 +32,7 @@ main.mb-4
             .form-floating
               input#email.form-control(
                 type='email',
+                name='email',
                 placeholder='Enter your email...',
                 data-sb-validations='required,email'
               )
@@ -40,17 +42,19 @@ main.mb-4
               .invalid-feedback(data-sb-feedback='email:email')
                 | Email is not valid.
             .form-floating
-              input#phone.form-control(
-                type='tel',
-                placeholder='Enter your phone number...',
+              input#subject.form-control(
+                type='text',
+                name='subject',
+                placeholder='Enter the subject here...',
                 data-sb-validations='required'
               )
-              label(for='phone') Phone Number
-              .invalid-feedback(data-sb-feedback='phone:required')
-                | A phone number is required.
+              label(for='subject') Subject
+              .invalid-feedback(data-sb-feedback='subject:required')
+                | The subject is required.
             .form-floating
               textarea#message.form-control(
                 placeholder='Enter your message here...',
+                name='message'
                 style='height: 12rem',
                 data-sb-validations='required'
               )
