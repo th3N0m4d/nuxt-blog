@@ -84,3 +84,13 @@ main.mb-4
               type='submit'
             ) Send
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Contact me',
+    }
+  },
+}
+</script>

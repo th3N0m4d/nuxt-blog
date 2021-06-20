@@ -11,3 +11,13 @@ main.mb-4
         p
           | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'About us',
+    }
+  },
+}
+</script>

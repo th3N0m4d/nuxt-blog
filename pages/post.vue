@@ -40,3 +40,13 @@ article.mb-4
           | &middot; Images by
           a(href='https://www.flickr.com/photos/nasacommons/') NASA on The Commons
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Blog post',
+    }
+  },
+}
+</script>

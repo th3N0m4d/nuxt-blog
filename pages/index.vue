@@ -65,3 +65,13 @@
       .d-flex.justify-content-end.mb-4
         a.btn.btn-primary.text-uppercase(href='#!') Older Posts →
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Home',
+    }
+  },
+}
+</script>
