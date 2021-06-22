@@ -1,7 +1,7 @@
 <template lang="pug">
 div
   .post-preview
-    NuxtLink(:to='postUrl')
+    NuxtLink(:to='`/posts/${id}`')
       h2.post-title
         | {{ title }}
       h3.post-subtitle
@@ -51,11 +51,6 @@ export default {
     return {
       DateFormat,
     }
-  },
-  computed: {
-    postUrl() {
-      return `/posts/${this.id}`
-    },
   },
 }
 </script>
