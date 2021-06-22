@@ -1,3 +1,6 @@
+import getRoutes from './utils/getRoutes'
+import ENV from './env'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -57,6 +60,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxt/content',
     '@nuxtjs/dotenv',
+    '@nuxtjs/sitemap',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -69,6 +73,13 @@ export default {
       if (ctx.isDev) {
         config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map'
       }
+    },
+  },
+
+  sitemap: {
+    hostname: ENV.baseUrl,
+    routes() {
+      return getRoutes()
     },
   },
 }
