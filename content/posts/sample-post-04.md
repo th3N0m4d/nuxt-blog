@@ -2,9 +2,8 @@
 author: Jane Doe
 title: Failure is not an option
 subTitle: Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+backgroundImage: ../../img/post-bg.jpg
 ---
-
-# Failure is not an option
 
 ## Many say exploration is part of our destiny, but it’s actually our duty to future generations.
 

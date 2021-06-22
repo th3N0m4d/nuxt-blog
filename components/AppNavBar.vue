@@ -1,7 +1,7 @@
 <template lang="pug">
 nav#mainNav.navbar.navbar-expand-lg.navbar-light
   .container.px-4.px-lg-5
-    NuxtLink.navbar-brand(to='/') Start Bootstrap
+    NuxtLink.navbar-brand(to='/') [Logo / Website name]
     button.navbar-toggler(
       type='button',
       data-bs-toggle='collapse',

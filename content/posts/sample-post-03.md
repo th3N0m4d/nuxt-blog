@@ -2,9 +2,8 @@
 author: John Doe
 title: Science has not yet mastered prophecy
 subTitle: We predict too much for the next year and yet far too little for the next ten.
+backgroundImage: ../../img/post-bg.jpg
 ---
-
-# Science has not yet mastered prophecy
 
 ## We predict too much for the next year and yet far too little for the next ten.
 
