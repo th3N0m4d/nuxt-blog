@@ -32,7 +32,7 @@ Spaceflights cannot be stopped. This is not the work of any one man or even a gr
 
 As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.
 
-[!...](img/post-sample-image.jpg)
+![Sample image](../../img/post-sample-image.jpg)
 
 To go places and do things that have never been done before – that’s what living is all about.
 

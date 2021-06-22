@@ -2,6 +2,7 @@
 author: Jane Doe
 title: Man must explore, and this is exploration at its greatest
 subTitle: Problems look mighty small from 150 miles up
+backgroundImage: ../../img/post-bg.jpg
 ---
 
 # Man must explore, and this is exploration at its greatest
@@ -32,9 +33,8 @@ Spaceflights cannot be stopped. This is not the work of any one man or even a gr
 
 As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.
 
-[!...](img/post-sample-image.jpg)
-
-To go places and do things that have never been done before – that’s what living is all about.
+![Sample image](../../img/post-sample-image.jpg)
+<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
 Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.
 

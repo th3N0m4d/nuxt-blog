@@ -44,6 +44,7 @@ export default {
   plugins: [
     { src: '~/plugins/vuelidate' },
     { src: '~/plugins/vue-flash-message', mode: 'client' },
+    { src: '~/plugins/disqus', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -55,6 +56,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/pwa',
     '@nuxt/content',
+    '@nuxtjs/dotenv',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
