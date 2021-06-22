@@ -1,3 +1,3 @@
 export default {
-  disqusApiKey: process.env.DISQUS_API_KEY,
+  disqusApiKey: process.env.NUXT_ENV_DISQUS_API_KEY,
 }
